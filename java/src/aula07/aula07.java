@@ -8,7 +8,10 @@ public class aula07 {
         
 
 
-        l[0].ganharLuta();
-        l[0].status();
+
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(l[1],l[1]);
+        UEC01.lutar();
+       
     }
 }
